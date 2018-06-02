@@ -1,5 +1,5 @@
 # walk
-# Sam Engel
+Sam Engel
 
 This is the start of a simulation/animation aimed at the question:
 Can we use Monte Carlo methods to reliably fill a discretely subdivided
