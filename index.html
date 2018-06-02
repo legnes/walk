@@ -2,17 +2,25 @@
 	<head>
 		<script src="jquery-1.11.2.min.js" ></script>
 		<script src="fluid.js" ></script>
+    <style type="text/css">
+      #options {
+        display: flex;
+        flex-direction: row;
+      }
+      .selectable {
+        cursor: pointer;
+      }
+    </style>
 	</head>
 	<body>
-		<div>hello!</div>
-		<canvas id="fCanvas" width="50" height="50">
+		<canvas id="fCanvas" width="512" height="512">
 		</canvas>
-		<ul id="fOptions" style="list-style-type: none;">
-			<li><a id="eight">(8)</a></li>
-			<li><a id="four">(4)</a></li>
-			<li><a id="two">(2)</a></li>
-			<li><a id="knight">(&#9822;)</a></li>
-			<li><a id="longestPath">(lpp)</a></li>
-		</ul>
+		<div id="fOptions" style="list-style-type: none;">
+			<a class="selectable" id="eight">(8)</a>
+			<a class="selectable" id="four">(4)</a>
+			<a class="selectable" id="two">(2)</a>
+			<a class="selectable" id="knight">(&#9822;)</a>
+			<!-- <li><a id="longestPath">(lpp)</a></li> -->
+		</div>
 	</body>
 </html>

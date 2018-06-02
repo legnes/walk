@@ -6,7 +6,7 @@
 // space with one single, randomly-generated closed path?
 // Also: How does the mode of propagation of the path affect success/failure?
 // (Note: the method attempted here largely fails to complete the challenge.)
-// 
+//
 // Subdivides a canvas into tiles,
 // randomly populates the canvas by sequentially assigning each tile a direction,
 // which points to the next tile in the series (forming a linked list),
@@ -29,7 +29,7 @@ var FollowEnum = {
 	KNIGHT: 4
 }
 
-var sqSize = 10;
+var sqSize = 8;
 var interval = 100;
 var canvas = null;
 var context = null;
@@ -464,7 +464,7 @@ function findPath() {
 }
 
 function mod(x, n) {
-	return ((x%n)+n)%n; 
+	return ((x%n)+n)%n;
 }
 
 function arrayContainsArray(a1, a2) {
